@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Playfair+Display:ital,wght@0,700;1,400;1,500;1,700&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Calculadora</title>
+    <script src="./script.js"></script>
+
+<body>
+    <div>
+        <input class="display">
+        <button onclick="limpaTela()" class="grey-button">AC</button>
+        <button onclick="inverterNumero()" class="grey-button">+/-</button>
+        <button onclick="adicionarCaracter('/')" class="blue-button">/</button>
+        <button onclick="adicionarCaracter('*')" class="blue-button">*</button>
+        <button onclick="adicionarCaracter('7')" class="black-button">7</button>
+        <button onclick="adicionarCaracter('8')" class="black-button">8</button>
+        <button onclick="adicionarCaracter('9')" class="black-button">9</button>
+        <button onclick="adicionarCaracter('-')" class="blue-button">-</button>
+        <button onclick="adicionarCaracter('4')" class="black-button">4</button>
+        <button onclick="adicionarCaracter('5')" class="black-button">5</button>
+        <button onclick="adicionarCaracter('6')" class="black-button">6</button>
+        <button onclick="adicionarCaracter('+')" class="blue-button">+</button>
+        <button onclick="adicionarCaracter('1')" class="black-button">1</button>
+        <button onclick="adicionarCaracter('2')"class="black-button">2</button>
+        <button onclick="adicionarCaracter('3')" class="black-button">3</button>
+        <button onclick="calcular()" class="equal-button equal">=</button>
+        <button onclick="adicionarCaracter('0')"class="black-button zero">0</button>
+        <button onclick="adicionarCaracter('.')"class="black-button">.</button>
+        
+    </div>
+
+</body>
+
+</html>
